@@ -12,16 +12,16 @@
 "	Colors
 "         HEX       R   G   B
 " blue    #01B0F0   1   176 240
-" purple  #9187FF   145 135 255
-" pink    #FF358B    255 53  139
+" purple  #B994FF   185 150 255
+" pink    #FF358B   255 53  139
 " black   #000000   0   0   0
 " brown   #1B1D1E   27  29  30
 " green   #AEEE00   174 238 0
 " grey    #5A7085   90  112 133
-" orange  #FF500E   255 80  14
+" orange  #FF6E0E   255 100 0
 " yellow  #FFDC00   255 220 0
 " white   #F8FFF9   248 255 249
-" cyan    #C6C5FE   198 197 254
+" cyan    #69C3FF   198 197 254
 
 
 set background=dark
@@ -144,10 +144,10 @@ hi IncSearch       guifg=#1B1D1E   guibg=#a7a7a7                       ctermfg=2
 hi LineNr          guifg=#5A7085   guibg=#000000                       ctermfg=60      ctermbg=0
 hi NonText         guifg=#eeeeee   guibg=#1B1D1E                       ctermfg=7       ctermbg=234
 hi Search          guifg=#F8FFF9   guibg=#FF358B                       ctermfg=15      ctermbg=204
-hi StatusLine      guifg=#F8FFF9   guibg=#01B0F0    gui=bold           ctermfg=15      ctermbg=39
+hi StatusLine      guifg=#000000   guibg=#01B0F0    gui=bold           ctermfg=15      ctermbg=39
 hi StatusLineNC    guifg=#F8FFF9   guibg=#5A7085                       ctermfg=15      ctermbg=60
 hi Todo            guifg=#000000   guibg=#FFDC00    gui=bold           ctermfg=0       ctermbg=220
-hi Visual          guifg=#9187FF   guibg=#FF358B                                       ctermbg=60
+hi Visual          guifg=#F8FFF9   guibg=#FF358B                                       ctermbg=60
 hi ModeMsg         guifg=#000000   guibg=#FFDC00                       ctermfg=0       ctermbg=220
 hi SpecialKey      guifg=#5A7085                                       ctermfg=60
 hi ErrorMsg        guifg=#000000   guibg=#FF500E                       ctermfg=0       ctermbg=202
@@ -157,7 +157,7 @@ hi DiffChange      guifg=#000000   guibg=#FFDC00                       ctermfg=0
 hi DiffDelete      guifg=#000000   guibg=#9187FF                       ctermfg=0       ctermbg=204
 hi DiffText        guifg=#F8FFF9                                       ctermfg=15
 hi MatchParen      guifg=#F8FFF9   guibg=#FF500E                       ctermfg=15      ctermbg=202
-hi Identifier      guifg=#FF500E                                       ctermfg=202
+hi Identifier      guifg=#01B0F0                                       ctermfg=202
 hi Type            guifg=#AEEE00                                       ctermfg=154
 hi Label           guifg=#AEEE00                                       ctermfg=154
 hi Special         guifg=#01B0F0                                       ctermfg=39
@@ -172,17 +172,19 @@ hi PmenuThumb      guifg=#01B0F0                                       ctermfg=3
 "————————————————————————————————————————————————————————————————————————————————————————————————————————————————————"
 
 hi Comment         guifg=#5A7085                                       ctermfg=60
-hi Constant        guifg=#9187FF                                       ctermfg=204
-hi String          guifg=#9187FF                                       ctermfg=204
-hi Number          guifg=#FF500E                                       ctermfg=202
-hi Boolean         guifg=#AEEE00                                       ctermfg=154
-hi Float           guifg=#B37A7A                                       ctermfg=138
+hi Constant        guifg=#B994FF                                       ctermfg=204
+hi String          guifg=#AEEE00                                       ctermfg=204
+hi Number          guifg=#FF6E0E                                       ctermfg=202
+hi Boolean         guifg=#FF6E0E                                       ctermfg=154
+hi Float           guifg=#FF6E0E                                       ctermfg=138
 hi Function        guifg=#01B0F0                                       ctermfg=39
 hi Statement       guifg=#01B0F0                                       ctermfg=39
-hi Conditional     guifg=#AEEE00                                       ctermfg=154
-hi Operator        guifg=#FF500E                                       ctermfg=202
-hi Keyword         guifg=#AEEE00                                       ctermfg=154
-hi Define          guifg=#AEEE00                                       ctermfg=154
-hi Delimiter       guifg=#AEEE00                                       ctermfg=154
+hi Conditional     guifg=#69C3FF                                       ctermfg=154
+hi Operator        guifg=#69C3FF                                       ctermfg=202
+hi Keyword         guifg=#69C3FF                                       ctermfg=154
+hi Define          guifg=#69C3FF                                       ctermfg=154
+hi Delimiter       guifg=#69C3FF                                       ctermfg=154
+hi Exception       guifg=#FF6E0E
+hi Include         guifg=#FF6E0E
 
 
